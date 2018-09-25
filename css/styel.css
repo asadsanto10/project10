@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,500,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,400i,700");
+/*navbar start*/
+.navbar {
+  background-color: #353f46bf; }
+  .navbar .active {
+    color: #4bcaff !important;
+    border: 1.5px solid #4bcaff !important;
+    background: transparent;
+    border-radius: 0px; }
+  .navbar .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.86);
+    outline: none; }
+  .navbar .customize-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255, 0.86)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  .navbar .nav-item {
+    padding: 0 5px; }
+    .navbar .nav-item .nav-link {
+      font-size: 14px;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      text-transform: uppercase;
+      color: #ffff;
+      font-weight: 600;
+      padding: 5px 10px;
+      margin: 0;
+      border: 1.5px solid #4bcaff00;
+      -webkit-transition: all ease 0.5s;
+      transition: all ease 0.5s; }
+      .navbar .nav-item .nav-link:hover {
+        color: #4bcaff !important; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+/*navbar end*/
+/*carousel start*/
+#carousel .carousel-caption-bottom h3 {
+  font-size: 42px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: inherit;
+  text-transform: uppercase;
+  color: #f6f7f7;
+  background-color: #3c464e9c; }
+
+/*carousel end*/
+/*service start*/
+#service {
+  background: #4bcaff;
+  color: white;
+  padding: 60px 0px 60px 0px; }
+  #service .head-ser h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 30px; }
+  #service .single-area {
+    padding-top: 35px;
+    text-transform: uppercase; }
+    #service .single-area h2 {
+      padding: 20px 0;
+      margin: 0; }
+    #service .single-area p {
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+      color: #fff;
+      font-size: 12px;
+      line-height: 25px;
+      text-align: justify;
+      text-transform: capitalize; }
+  #service .border1 {
+    background: white;
+    height: 2px;
+    width: 45px; }
+
+/*service end*/
+/*protfolio start*/
+#protfolio {
+  padding-bottom: 80px; }
+  #protfolio .active {
+    color: #4bcaff !important;
+    border: 1.5px solid #4bcaff !important; }
+  #protfolio .head {
+    padding: 60px 0px 60px 0px; }
+    #protfolio .head h2 {
+      font-size: 25px;
+      text-transform: uppercase;
+      color: #515f67;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300; }
+  #protfolio ul {
+    text-align: right; }
+    #protfolio ul li {
+      display: inline-block;
+      cursor: pointer;
+      padding: 6px 24px;
+      border: 1.5px solid rgba(255, 255, 255, 0);
+      text-transform: uppercase; }
+  #protfolio .overlay {
+    position: relative;
+    width: 100%; }
+    #protfolio .overlay img {
+      display: block;
+      width: 100%; }
+    #protfolio .overlay .overlay-ef {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #515f67a6;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transform: scale(0);
+      transition: .5s ease; }
+      #protfolio .overlay .overlay-ef i {
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap; }
+  #protfolio .overlay:hover .overlay-ef {
+    transform: scale(1); }
+
+/*protfolio end*/
+/*features strt*/
+#features {
+  background: #515f67;
+  padding: 60px 0px; }
+  #features h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300; }
+  #features p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+    text-align: justify; }
+  #features button {
+    background: transparent;
+    color: #353f46;
+    border: 2px solid #353f46;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 5px 27px;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all ease 0.5s; }
+    #features button:hover, #features button:focus {
+      color: #4bcaff;
+      border: 2px solid #4bcaff; }
+
+/*features end*/
+/*twitter area start*/
+#twitter {
+  background: #4bcaff;
+  padding: 60px 0px; }
+  #twitter .posi {
+    position: relative;
+    margin-bottom: 15px; }
+    #twitter .posi h2 {
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300; }
+    #twitter .posi i {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #fff;
+      font-size: 30px; }
+  #twitter p {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 50px; }
+    #twitter p span {
+      font-weight: bolder; }
+
+/*twitter area end*/
+/*whois area start*/
+#whois {
+  padding: 100px 0px 115px 0px;
+  background: url(../img/fsdfsdfd.jpg) no-repeat center fixed;
+  background-size: cover; }
+  #whois h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300; }
+  #whois p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+    text-align: justify; }
+  #whois .mar {
+    padding-top: 45px; }
+  #whois .soicl-icon {
+    margin-top: 35px; }
+    #whois .soicl-icon i {
+      cursor: pointer;
+      color: #fff;
+      font-size: 30px;
+      border: 1.5px solid #fff;
+      padding: 18px;
+      margin-right: 20px;
+      transition: all ease 0.5s; }
+      #whois .soicl-icon i:last-child {
+        margin: 0px; }
+      #whois .soicl-icon i:hover {
+        color: #4bcaff;
+        border-color: #4bcaff;
+        transform: translate(0px, -5px); }
+
+/*whois area end*/
+/*testimonials area start*/
+#testimonials {
+  padding: 60px 0px; }
+  #testimonials .posi {
+    position: relative;
+    margin-bottom: 15px; }
+    #testimonials .posi h2 {
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #899196;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300; }
+    #testimonials .posi span {
+      font-family: 'Bitter', serif;
+      position: absolute;
+      top: -17px;
+      right: 0%;
+      color: #515f67;
+      font-size: 72px; }
+  #testimonials p {
+    font-size: 28px;
+    color: #6f7a80;
+    font-weight: 200;
+    line-height: 50px;
+    margin-bottom: 15px; }
+  #testimonials a {
+    color: #4bcaff;
+    text-decoration: none;
+    transition: all ease 0.5s; }
+    #testimonials a:hover {
+      color: #03b5ff; }
+
+/*testimonials area end*/
+/* contact area start*/
+#contact {
+  padding: 60px 0px;
+  background: url(../img/sdasdfaf.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #contact h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #e3e5e7;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300; }
+  #contact label {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 4px; }
+  #contact .ctrl {
+    width: 100%;
+    color: #fff;
+    background-color: #fff0;
+    border: 1.5px solid #ffffff;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    height: 45px; }
+    #contact .ctrl:focus {
+      border-color: #4bcaff; }
+  #contact .addressbar p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 92px; }
+  #contact .addressbar .address p {
+    padding: 0;
+    margin: 0; }
+  #contact .massege label {
+    margin-top: 8px; }
+  #contact .massege textarea {
+    height: 170px; }
+  #contact .massege button {
+    margin-top: 30px;
+    width: 285px;
+    height: 50px;
+    background: transparent;
+    border: 1.5px solid transparent;
+    border-radius: 0px;
+    color: #fff;
+    background: #4bcaff;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: none; }
+    #contact .massege button:hover {
+      background: #03b5ff; }
+
+/* contact area end*/
+/*footer are start*/
+#footer {
+  background: #515f67;
+  padding: 20px 0px; }
+  #footer P, #footer a {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400; }
+  #footer a {
+    color: #4bcaff;
+    transition: 0.5s all ease;
+    font-size: 16px; }
+    #footer a:hover {
+      color: #03b5ff;
+      text-decoration: none; }
+
+/*footer are end*/
+/*========================responsiv start================================*/
+/*navbar start*/
+@media only screen and (max-width: 576px) {
+  .navbar .navbar-nav {
+    margin-top: 15px;
+    text-align: center; } }
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .navbar .navbar-nav {
+    margin-top: 15px; } }
+
+/*navbar end*/
+/*carousel start*/
+@media only screen and (max-width: 576px) {
+  #carousel .carousel-caption-bottom h3 {
+    font-size: 10px; } }
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  #carousel .carousel-caption-bottom h3 {
+    font-size: 23px; } }
+
+/*carousel end*/
+/*protfolio strat*/
+@media only screen and (max-width: 575px) {
+  #protfolio ul {
+    padding: 0;
+    margin-top: 15px;
+    text-align: center; }
+    #protfolio ul li {
+      padding: 5px 14px;
+      display: block; } }
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  #protfolio ul {
+    padding: 0;
+    margin: 24px 0px -38px;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+    #protfolio ul li {
+      padding: 5px 16.7px;
+      width: 100%; } }
+
+/*protfolio end*/
+/*whois area start*/
+@media only screen and (max-width: 565px) {
+  #whois .soicl-icon i {
+    font-size: 25px !important;
+    padding: 9px !important;
+    margin-right: 10px !important; } }
+
+@media only screen and (max-width: 767px) {
+  #whois .soicl-icon {
+    justify-content: center !important; } }
+
+/*whois area end*/
+@media only screen and (max-width: 767px) {
+  #contact .addressbar {
+    padding: 10px 0 !important; }
+    #contact .addressbar p {
+      padding: 0; }
+  #contact .massege button {
+    width: 100%; } }
+
+/*fotter area*/
+@media only screen and (max-width: 767px) {
+  #footer p {
+    text-align: center !important; } }
+
+/*fotter end*/
+#top {
+  color: #0094cc;
+  font-size: 40px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px; }

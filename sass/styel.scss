@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,500,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700');
+
+
+/*navbar start*/
+.navbar{
+  background-color: #353f46bf;
+
+  .active{
+    color: #4bcaff !important;
+    border: 1.5px solid #4bcaff !important;
+    background: transparent;
+    border-radius: 0px;
+  }
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.86);
+    outline: none;
+  }
+
+  .customize-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255, 0.86)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+  .nav-item{
+    padding: 0 5px;
+    .nav-link{
+      font-size: 14px;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      text-transform: uppercase;
+      color: #ffff;
+      font-weight: 600;
+      padding: 5px 10px;
+      margin: 0;
+      border: 1.5px solid #4bcaff00;
+      -webkit-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      &:hover{
+        color: #4bcaff !important;
+      }
+    }
+  }
+  .nav-item:last-child{
+    padding-right: 0;
+  }
+}
+
+/*navbar end*/
+
+
+
+/*carousel start*/
+
+#carousel{
+  .carousel-caption-bottom{
+    h3{
+    font-size: 42px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: inherit;
+    text-transform: uppercase;
+    color: #f6f7f7;
+    background-color: #3c464e9c;
+
+    }
+  }
+}
+/*carousel end*/
+
+
+
+
+/*service start*/
+#service{
+  background: #4bcaff;
+  color: white;
+  padding: 60px 0px 60px 0px;
+  .head-ser{
+    h2{
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-size: 30px;
+    }
+  }
+  .single-area{
+    padding-top: 35px;
+    text-transform: uppercase;
+
+    h2{
+    padding: 20px 0;
+    margin: 0;
+    }
+    p{
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+      color: #fff;
+      font-size: 12px;
+      line-height: 25px;
+      text-align: justify;
+      text-transform: capitalize;
+    }
+  }
+
+  .border1{
+    background: white;
+    height: 2px;
+    width: 45px;
+
+  }
+}
+
+/*service end*/
+
+
+
+/*protfolio start*/
+#protfolio{
+    padding-bottom: 80px;
+  .active{
+    color: #4bcaff !important;
+    border: 1.5px solid #4bcaff !important;
+  }
+  .head{
+    padding: 60px 0px 60px 0px;
+    h2{
+      font-size: 25px;
+      text-transform: uppercase;
+      color: #515f67;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+    }
+  }
+  ul{
+    text-align: right;
+    li{
+      display: inline-block;
+      cursor: pointer;
+      padding: 6px 24px;
+      border: 1.5px solid rgba(#ffffff, 0);
+      text-transform: uppercase;
+    }
+  }
+  .overlay{
+    position: relative;
+    width: 100%;
+    img{
+      display: block;
+      width: 100%;
+    }
+    .overlay-ef{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #515f67a6;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transform: scale(0);
+      transition: .5s ease;
+      i{
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+      }
+    }
+  }
+  .overlay:hover .overlay-ef{
+    transform: scale(1);
+  }
+}
+/*protfolio end*/
+
+
+
+/*features strt*/
+
+#features{
+  background: #515f67;
+  padding: 60px 0px;
+  h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+  }
+  p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  button{
+    background: transparent;
+    color: #353f46;
+    border: 2px solid #353f46;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 5px 27px;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all ease 0.5s;
+    &:hover,
+    &:focus{
+      color: #4bcaff;
+      border: 2px solid #4bcaff;
+    }
+  }
+
+}
+
+/*features end*/
+
+/*twitter area start*/
+#twitter{
+  background: #4bcaff;
+  padding: 60px 0px;
+  .posi{
+    position: relative;
+    margin-bottom: 15px;
+    h2{
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+    }
+    i{
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+  p{
+    font-size: 28px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 50px;
+    span{
+      font-weight: bolder;
+    }
+  }
+}
+/*twitter area end*/
+
+
+/*whois area start*/
+  #whois{
+    padding: 100px 0px 115px 0px;
+    background: url(../img/fsdfsdfd.jpg) no-repeat center fixed;
+    background-size: cover;
+    h2{
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+    }
+    p{
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+      color: #fff;
+      font-size: 15px;
+      line-height: 25px;
+      margin-top: 30px;
+      text-align: justify;
+    }
+    .mar{
+        padding-top: 45px;
+    }
+    .soicl-icon{
+        margin-top: 35px;
+      i{
+        cursor: pointer;
+        color: #fff;
+        font-size: 30px;
+        border: 1.5px solid #fff;
+        padding: 18px;
+        margin-right: 20px;
+        transition: all ease 0.5s;
+        &:last-child{
+          margin: 0px;
+        }
+        &:hover{
+          color: #4bcaff;
+          border-color: #4bcaff;
+          transform: translate(0px, -5px);
+        }
+      }
+    }
+  }
+/*whois area end*/
+
+/*testimonials area start*/
+  #testimonials{
+    padding: 60px 0px;
+    .posi{
+      position: relative;
+      margin-bottom: 15px;
+      h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #899196;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-weight: 300;
+      }
+      span{
+        font-family: 'Bitter', serif;
+        position: absolute;
+        top: -17px;
+        right: 0%;
+        color: #515f67;
+        font-size: 72px;
+      }
+    }
+    p{
+      font-size: 28px;
+      color: #6f7a80;
+      font-weight: 200;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
+    a{
+      color: #4bcaff;
+      text-decoration: none;
+      transition: all ease 0.5s;
+      &:hover{
+        color: #03b5ff;
+      }
+    }
+  }
+/*testimonials area end*/
+
+/* contact area start*/
+  #contact{
+    padding: 60px 0px;
+    background: url(../img/sdasdfaf.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    h2,{
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #e3e5e7 ;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-weight: 300;
+    }
+    label{
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 4px;
+    }
+    .ctrl{
+    width: 100% ;
+    color: #fff;
+    background-color: #fff0;
+    border: 1.5px solid #ffffff;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+    height: 45px;
+    &:focus{
+      border-color: #4bcaff;
+    }
+    }
+    .addressbar{
+      p{
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        padding-top: 92px;
+      }
+      .address{
+        p{
+          padding: 0;
+          margin: 0;
+        }
+      }
+    }
+    .massege{
+      label{
+        margin-top: 8px;
+      }
+      textarea{
+        height: 170px;
+      }
+      button{
+        margin-top: 30px;
+        width: 285px;
+        height: 50px;
+        background: transparent;
+        border: 1.5px solid transparent;
+        border-radius: 0px;
+        color: #fff;
+        background: #4bcaff;
+        font-size: 14px;
+        text-transform: uppercase;
+        box-shadow: none;
+        &:hover{
+          background: #03b5ff;
+        }
+      }
+    }
+
+  }
+/* contact area end*/
+
+
+/*footer are start*/
+
+#footer{
+  background: #515f67;
+  padding: 20px 0px;
+  P, a{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+  }
+  a{
+    color:#4bcaff;
+    transition: 0.5s all ease;
+    font-size: 16px;
+    &:hover{
+      color: #03b5ff;
+      text-decoration: none;
+    }
+  }
+}
+/*footer are end*/
+
+#top{
+  color: #0094cc;
+font-size: 40px;
+position: absolute;
+bottom: 20px;
+right: 20px;
+}
